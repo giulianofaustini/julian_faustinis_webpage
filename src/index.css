@@ -1,0 +1,34 @@
+:root{
+
+    background-color: black;
+    color: aliceblue;
+}
+
+.pages{
+width: 100%;
+margin-left: 20px;
+
+}
+
+.shortPiece{
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.profile_picture{
+   float: left;
+   width: 30%;
+   height: 28%;
+   margin: 10px;
+   border-radius: 5%;
+}
+
+.aboutForm {
+   position: relative;
+   margin-left: 15%;
+   margin-right: 15%;
+  text-align: left;
+   
+
+}
