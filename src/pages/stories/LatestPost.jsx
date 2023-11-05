@@ -1,4 +1,3 @@
-import React from "react";
 
 import { useNavigate } from "react-router-dom";
 
@@ -12,7 +11,7 @@ export const LatestPost = () => {
   return (
     <div>
       <h2>Latest Post</h2>
-      <h5>By Julian Faustini</h5>
+      <h5> <em>By Julian Faustini</em></h5>
       <button onClick={navigateToShortFiction}>BACK</button>
       <p className="shortPiece" >
         Mark Johnson <br />3 December 01:41 <br />I can’t help but think about
@@ -35,13 +34,13 @@ export const LatestPost = () => {
         Then the cars honk, driving toward him, and I get angry. This must come
         to an end. <br />
         <br />
-        54 likes 12 shares <br /> View 5 more comments
+        <em>54 likes 12 shares <br /> View 5 more comments </em>
         <br />
         <br />
-        Mariah I thought he was my grandpa. Then I remembered he’s dead
-        <br /> Matthew go home, man LOL old farts always causing a traffic jam{" "}
+        <strong> Mariah: </strong>I thought he was my grandpa. Then I remembered he’s dead
+        <br /> <strong>Matthew:</strong> go home, man LOL old farts always causing a traffic jam{" "}
         <br />
-        Layla Have you talked to him?
+        <strong>Layla:</strong> Have you talked to him?
         <br /> <br />
         Mark Johnson <br /> 4 December 09:41 <br /> Overnight, someone trashed
         the pedestrian traffic light that dictated the old man’s crossing. It
@@ -58,12 +57,12 @@ export const LatestPost = () => {
         petition to demand a 30-second timer for you,” I said. “That would give
         no meaning to my walk.” I froze. Cars honked at me.
         <br />
-        <br /> 93 likes 36 shares <br />
-        View 10 more comments <br />
+        <br /> <em> 93 likes 36 shares <br />
+        View 10 more comments </em> <br />
         <br />
-        Jeff he’d have slapped your face, if he had had some strength <br />
-        Julia ahhhhh old men ❤ <br />
-        Chris you wanted to help, uh?
+        <strong>Jeff:</strong> he’d have slapped your face, if he had had some strength <br />
+        <strong>Julia:</strong> ahhhhh old men ❤ <br />
+        <strong>Chris:</strong> you wanted to help, uh?
       </p>
     </div>
   );

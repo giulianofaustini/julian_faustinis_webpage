@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useNavigate } from "react-router-dom";
 
 export const Pirouettes = () => {
@@ -11,7 +11,7 @@ export const Pirouettes = () => {
   return (
     <div>
       <h2>Pirouettes</h2>
-      <h5>By Julian Faustini</h5>
+      <h5> <em>By Julian Faustini</em></h5>
       <button onClick={navigateToShortFiction}>BACK</button>
       <p className="shortPiece">
         I pirouette naked in front of the bedroom mirror from time to time. My
