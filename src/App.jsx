@@ -9,12 +9,13 @@ import { Navbar } from "./components/Navbar";
 import { Pirouettes } from "./pages/stories/Pirouettes";
 import { LatestPost } from "./pages/stories/LatestPost";
 
-import './index.css'
+
 import { HouseAndGarden } from "./pages/stories/HouseAndGarden";
 
 function App() {
   return (
-    <Router>
+    <div className="container">
+    <Router >
       <Navbar />
       <div className="pages">
       <Routes>
@@ -29,6 +30,7 @@ function App() {
       </Routes>
       </div>
     </Router>
+    </div>
   );
 }
 
